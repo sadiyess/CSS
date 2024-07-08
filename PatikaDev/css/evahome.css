@@ -1,0 +1,32 @@
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav.title{
+    background-color:#fbcdb2;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.title2 {
+    font-size: 30px; /* Metin boyutu */
+    font-weight: bold; /* Kalın metin */
+    margin: 0 auto; /* Ortalamak için */
+    color:tomato ;
+}
+.menu {
+        width: 150px;
+        height: 150px;
+        background-color: lightcoral;
+        position: absolute; /* Mutlak pozisyonlama */
+        top: 50px; /* Üstten 50 piksel */
+        left: 50px; /* Soldan 50 piksel */
+    }
+
+
+
+
+
