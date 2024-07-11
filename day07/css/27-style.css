@@ -12,24 +12,22 @@ nav.menu ul {
   text-align: center;
 }
 
-nav.menu ul li{
-   
- flex: 1;
+nav.menu ul li {
+  flex-basis: 170px;
 }
 
 nav.menu ul li a {
-
   font-size: 1.8rem;
   text-decoration: none;
   background-color: fuchsia;
   color: aliceblue;
   border-radius: 10px;
-  padding:  10px;
-
-
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-nav.menu ul li a:hover{
-
+nav.menu ul li a:hover {
   background-color: rgb(0, 255, 72);
   color: rgb(0, 0, 0);
 }
